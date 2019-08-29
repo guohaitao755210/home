@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewprot" content="width=device-width,initial-scale=1.0">
+		<style>
+		*{
+		margin:0px;
+		padding:0px;
+		box-sizing:border-box;
+		}
+		#parent>div{
+		border:solid 1px;
+		float:left;
+		}
+		ul{
+		list-style-type:none;
+		}
+		ul::after{
+		content:"";
+    display:block;
+		clear:both;
+		}
+			#parent{
+		width:80%;
+		margin:0 auto;
+		}
+		#left>ul>li{
+		width:100%;
+		height:50px;
+		line-height:40px;
+		float:left;
+		border:solid 5px #8A2BE2;
+    text-align:center;
+		}
+		@media screen and (min-width:1200px){
+	
+		img{
+		width:25%;
+		padding:5px;
+		}
+		#left{
+		width:20%;
+		}
+		
+		#center{
+		width:60%;
+		}
+		#right{
+		width:20%;
+		}
+		}
+		@media screen and (min-width:756px) and (max-width:1199px){
+		#left{
+		width:30%;
+		}
+		img{
+		width:25%;
+		padding:5px;
+		}
+		#center{
+		width:70%;
+		}
+		#right{
+		display:none;
+		}
+		}
+    @media screen and (max-width:756px){
+		#left{width:100%;}
+		#center{
+		width:100%;
+		}
+		#center>img{
+		width:50%;
+		padding:5px;
+		}
+		#rigth:100%;
+		}
+		</style>
+</head>
+<body>
+<div id="parent">
+<div id="left">
+<ul>
+	<li><a href="">豆蔻年华</a></li>
+	<li><a href="">花样青春</a></li>
+	<li><a href="">而立之年</a></li>
+	<li><a href="">激情岁月</a></li>
+</ul>
+</div>
+<div id="center"><img src="img/1.jpg" alt=""><img src="img/2.jpg" alt=""><img src="img/3.jpg" alt=""><img src="img/4.jpg" alt="">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. In beatae a fuga numquam maxime blanditiis soluta quod alias eius doloremque voluptate asperiores ad amet dolorem quia culpa perferendis minus fugiat repellat doloribus facilis sed iure nam aspernatur at officiis esse provident ipsa odio voluptates ullam placeat saepe reprehenderit ex ut nihil voluptatem. Unde illo quibusdam odit ut magni quas architecto dolorum explicabo optio esse exercitationem quis placeat rerum maxime reiciendis vitae quae nihil ea impedit voluptas ab quaerat alias suscipit! Rerum ut similique alias distinctio amet quibusdam eos harum at ratione delectus deserunt illum ea iusto quam illo labore ad ullam ipsam eveniet sint! Ea voluptatum enim vel ducimus sunt facilis ipsum magni dignissimos nam unde cupiditate quos. Est animi sapiente quidem sequi pariatur maxime molestiae labore qui! Excepturi perferendis suscipit dolore vel eum voluptatem accusantium aut maiores voluptates eius. Obcaecati eaque illum doloribus iusto quae culpa ipsa voluptate nesciunt iste fuga pariatur minus suscipit nihil voluptas ex facere deserunt fugit nostrum dolorem ipsam vel voluptatem quos necessitatibus aliquid dolores excepturi nobis qui! Earum doloremque voluptatem veniam illo neque dignissimos fugit ipsum pariatur deserunt voluptas accusamus consequuntur vitae autem. Id dolorum quisquam sapiente laboriosam sit dolore porro neque obcaecati earum quo. Quo ea totam dicta in qui necessitatibus ullam ab temporibus distinctio unde possimus placeat hic impedit odio minima. Ipsam dolorem praesentium perspiciatis officiis consectetur nam esse iure tenetur deleniti eius magni dolorum illum modi saepe qui. Ea rem adipisci aspernatur accusamus nemo eveniet animi laudantium hic! Sequi aperiam sed perspiciatis ullam consequuntur incidunt maiores iure enim ipsa ad dolores nobis rerum inventore suscipit fugit eaque totam! Inventore ea architecto est eaque provident temporibus neque necessitatibus voluptatum? Accusantium similique voluptas est neque ad dolorem repudiandae. Doloribus amet necessitatibus earum libero sequi iusto ratione praesentium minima assumenda ipsa ipsum totam dicta!
+</div>
+<div id="right"><p>右侧代信息栏Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab maiores accusantium illo in cupiditate cum consequatur tempora iusto maxime saepe distinctio impedit repellat voluptas deleniti fugit obcaecati iste quas et nam totam nulla dolorum nobis necessitatibus similique reprehenderit earum magnam veniam suscipit dolores aspernatur. Quisquam aliquid laboriosam esse voluptate pariatur cumque repudiandae? Recusandae accusamus nisi illo voluptas ipsa quis </p></div>
+</div>
+</body>

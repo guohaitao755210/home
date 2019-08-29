@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+		<style>
+		*{
+		padding:0;
+		margin:0;
+		}
+		.container>.row>div{
+		border:solid 1px;
+		}
+		.container>.row>div:first-child{
+		background-color:#00FF00;
+		}
+	.container>.row>div:first-child>input{
+	margin:10px;
+	width:200px;
+	height:30px;
+	border-radius:0.3rem;
+	outline:none;
+	border:0;
+	}
+	.container>.row>div:first-child>h2{
+  margin-top:5px;
+	}
+	.container>.row>div:nth-child(2){
+	line-height:43px;
+	}
+		.container>.row>div:nth-child(2)>span>h3{
+		font-weight:100;
+		font-family:宋体;
+		font-style:italic;
+		}
+		.container>.row>div:nth-child(2)>span{
+		font-size:30px;
+		}
+		</style>
+</head>
+<body>
+<div class="container">
+<div class="row">
+  <div class="col-12"><h2 class="float-left">LOGO</h2><input type="text" class="float-right"></div>
+  <div class="col-12"><h3 class="float-left ">Bootstrap</h3><span class="float-left"><h3 class="float-left">CSS</h3><span class="float-left">type</span></div>
+  <div class="col-3"></div>
+  <div class="col-6"></div>
+	<div class="col-3"></div>
+</div>
+</div>
+</body>

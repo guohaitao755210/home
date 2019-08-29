@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<title></title>
+<meta charset="utf-8">
+<style>
+*{
+padding:0px;
+margin:0px;}
+div[id]{
+box-sizing:border-box;
+border:solid 1px;
+float:left;
+}
+#d1>ul{
+width:100%;
+border:solid 1px;
+list-style-type:none;
+background-color:#000;
+}
+#d1>ul>li{
+box-sizing:border-box;
+width:100%;
+height:50px;
+font-size:24px;
+color:#ff0;
+background-color:#fff;
+margin:10px 0px;
+text-align:center;
+float:left;
+line-height:50px;
+}
+ul::after{
+content:"";
+display:block;
+clear:both;
+}
+#d2>img{
+box-sizing:border-box;
+width:25%;
+padding:10px;
+}
+@media screen and (min-width:1200px){
+#d1{
+width:20%;
+}
+#d2{
+width:60%;
+}
+#d3{
+width:20%;
+}
+}
+
+@media screen and (min-width:991px) and (max-width:1199px){
+#d1{
+width:30%;
+}
+#d2{
+width:70%;
+}
+#d3{
+display:none;
+}
+}
+@media screen and (max-width:991px){
+div{
+width:100%;
+}
+#d2>img{
+width:50%;
+}
+}
+</style>
+</head>
+<body>
+<div id="d1">
+<ul>
+	<li><a href="">豆蔻年华</a></li>
+	<li><a href="">花样青春</a></li>
+	<li><a href="">而立之年</a></li>
+	<li><a href="">激情岁月</a></li>
+</ul>
+</div>
+<div id="d2"><img src="img/1.jpg" alt=""><img src="img/2.jpg" alt=""><img src="img/3.jpg" alt=""><img src="img/4.jpg" alt="">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur minus eligendi ab corrupti non harum accusamus obcaecati amet placeat qui modi debitis veritatis atque quaerat reprehenderit sint temporibus quasi quas eveniet repudiandae aliquam neque nihil dolorem repellat sed eaque dolores vitae excepturi quam velit blanditiis expedita quisquam. Veritatis voluptates eius consectetur velit odit praesentium vel saepe commodi optio ducimus. Suscipit ab voluptatibus officiis facilis ea eum iste nam magni eligendi cum fugit obcaecati! Voluptatum quam modi repellat harum mollitia nostrum alias inventore aperiam aspernatur a. Est unde temporibus ab magni accusantium sed impedit ea mollitia tenetur maiores! Esse accusantium.
+</div>
+<div id="d3">
+右侧的广告:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae odit architecto consectetur atque eum obcaecati recusandae quidem ducimus nostrum sunt adipisci veritatis itaque tempora veniam quasi repellendus debitis est quisquam esse corporis! Explicabo dolorem facilis minima fugit exercitationem dolor reiciendis assumenda enim sint esse omnis iusto nobis porro deleniti ad? Quos fugiat beatae sint voluptas dolorum pariatur architecto neque deleniti. Sequi facilis atque tenetur molestiae ducimus sed aperiam impedit qui rem incidunt beatae excepturi necessitatibus ipsum dolorum quia voluptatem velit! Dolores quis illum et consectetur quia porro aspernatur esse minima laudantium in maiores facilis id aperiam quasi nostrum quam corporis.	
+</div>
+</div>
+</body>
+</html>

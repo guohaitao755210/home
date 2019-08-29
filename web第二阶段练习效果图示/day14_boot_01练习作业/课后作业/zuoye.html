@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </style>
+		<style>
+		*{
+		padding:0px;
+		margin:0px;
+		box-sizing:border-box;
+		}
+		@media screen and (min-width:1000px){
+
+		#bg{
+		width:100%;
+		height:600px;
+		text-align:center;
+		background-image:linear-gradient(to right,#0d0536 0%,#592a4c 100%);
+		
+		}
+    
+    #font1{
+		font-size:6rem;
+		color:#fff;
+		margin-top:200px;
+		}
+		#font2{
+		font-size:2rem;
+		color:#D3D3D3;
+		margin:10px;
+		}
+		#bg::before{
+		content:"";
+		display:table;
+		}
+		#bg>a{
+		font-size:18px;
+		font-weight:bold;
+		color:#fff;
+		text-decoration:none;
+		margin:20px auto;
+		display:block;
+		width:400px;
+		height:50px;
+		line-height:50px;
+		border-radius:10px;
+		}
+    
+		a:hover{
+		background:#347AB6;
+		}
+		#tu{
+		width:100%;
+		}
+    #tu>img{
+		width:25%;
+		}
+		}
+				@media screen and (max-width:1000px){
+
+		#bg{
+		width:100%;
+		height:400px;
+		text-align:center;
+		background-image:linear-gradient(to right,#00FF00 0%,#FF4500 100%);
+		min-width:850px;
+		}
+    
+    #font1{
+		font-size:5rem;
+		color:#fff;
+		margin-top:100px;
+		}
+		#font2{
+		font-size:1.5rem;
+		color:#D3D3D3;
+		margin-top:20px;
+		margin-bottom:30px;
+		}
+		#bg::before{
+		content:"";
+		display:table;
+		}
+		#bg>a{
+		font-size:16px;
+		font-weight:bold;
+		color:#fff;
+		text-decoration:none;
+		margin:20px auto;
+		display:block;
+		width:300px;
+		height:30px;
+		line-height:30px;
+		border-radius:5px;
+		}
+    
+		a:hover{
+		background:#00FFFF;
+		}
+		#tu{
+		width:100%;
+		}
+    #tu>img{
+		width:50%;
+		}
+		}
+		</style>
+</head>
+<body>
+<div id="bg">
+<h1 id="font1">bootstrap</h1>
+<h2 id="font2">简洁、直观、强悍、的前端开发框架,让web开发更迅速、简单。</h2>
+<a href="">Bootstrap3中文文档(v4.0.0)</a>
+<a href="">Bootstrap2中文文档(v3.3.7)</a>
+</div>
+<div id="tu">
+<img src="img/boot-1.png" alt=""><img src="img/boot-2.png" alt=""><img src="img/boot-3.png" alt=""><img src="img/boot-4.png" alt=""></div>
+</body>
+</html>

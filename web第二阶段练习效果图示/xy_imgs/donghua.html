@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+  <head>
+    <title></title>
+		<meta charset="utf-8"/>
+		<style>
+		*{
+		padding:0;
+		margin:0;
+		}
+		#bg{
+		width:200px;
+		height:200px;
+		margin:500px;
+		background-image:url(biao.jpg);
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position:50% 50%;
+		border:solid 2px;
+    border-radius:50%;
+		position:relative;
+		}
+		#d1{
+		width:3px;
+		height:100px;
+		border:solid 1px;
+		background-color:#FFFF00;
+		border-top-left-radius:50%;
+		border-top-right-radius:50%;
+		position:absolute;
+		top:0;left:50%;
+		transform-origin:50% 100%;
+		transform:translate(-50%);
+		}
+    @keyframes change{
+		0%    {transform:rotateZ(0deg)}
+		1.66% {transform:rotateZ(6deg)}
+		3.33% {transform:rotateZ(12deg)}
+		4.99% {transform:rotateZ(18deg)}
+    6.64% {transform:rotateZ(24deg)}
+		8.3%  {transform:rotateZ(30deg)}
+		9.97% {transform:rotateZ(36deg)}
+		11.62%{transform:rotateZ(42deg)}
+		13.28%{transform:rotateZ(48deg)}
+		14.94%{transform:rotateZ(54deg)}
+    16.6% {transform:rotateZ(60deg)}
+		18.26%{transform:rotateZ(66deg)}
+		19.93%{transform:rotateZ(72deg)}
+		21.58%{transform:rotateZ(78deg)}
+		24.9% {transform:rotateZ(84deg)}
+		26.57%{transform:rotateZ(90deg)}
+    28.23%{transform:rotateZ(96deg)}
+		29.9% {transform:rotateZ(102deg)}
+		31.55%{transform:rotateZ(108deg)}
+		33.11%{transform:rotateZ(114deg)}
+		34.55%{transform:rotateZ(120deg)}
+    36.53%{transform:rotateZ(126deg)}
+		38.19%{transform:rotateZ(132deg)}
+		39.86%{transform:rotateZ(138deg)}
+		41.51%{transform:rotateZ(144deg)}
+		43.18%{transform:rotateZ(150deg)}
+		43.85%{transform:rotateZ(156deg)}
+    46.5% {transform:rotateZ(162deg)}
+		48.15%{transform:rotateZ(168deg)}
+		49.81%{transform:rotateZ(172deg)}
+		51.47%{transform:rotateZ(178deg)}
+		53.13%{transform:rotateZ(184deg)}
+		54.79%{transform:rotateZ(190deg)}
+		56.45%{transform:rotateZ(196deg)}
+    58.11%{transform:rotateZ(202deg)}
+		59.77%{transform:rotateZ(208deg)}
+		61.43%{transform:rotateZ(214deg)}
+		63.09%{transform:rotateZ(220deg)}
+		64.75%{transform:rotateZ(226deg)}
+		66.41%{transform:rotateZ(232deg)}
+    68.07%{transform:rotateZ(238deg)}
+		69.73%{transform:rotateZ(242deg)}
+		71.39%{transform:rotateZ(248deg)}
+		73.05%{transform:rotateZ(254deg)}
+		74.71%{transform:rotateZ(260deg)}
+		76.37%{transform:rotateZ(266deg)}
+    78.03%{transform:rotateZ(272deg)}
+		79.69%{transform:rotateZ(278deg)}
+		81.36%{transform:rotateZ(284deg)}
+		83.01%{transform:rotateZ(290deg)}
+		84.67%{transform:rotateZ(296deg)}
+    86.33%{transform:rotateZ(302deg)}
+		87.99%{transform:rotateZ(308deg)}
+		89.65%{transform:rotateZ(314deg)}
+		91.31%{transform:rotateZ(320deg)}
+		92.97%{transform:rotateZ(326deg)}
+		94.63%{transform:rotateZ(322deg)}
+    96.29%{transform:rotateZ(328deg)}
+		97.95%{transform:rotateZ(334deg)}
+		99.61%{transform:rotateZ(340deg)}
+		100%{transform:rotateZ(346deg)}
+		}
+		#d1{
+		animation:change 30s infinite;
+		}
+		
+		</style>
+  </head>
+  <body>
+	<div id="bg">
+<div id="d1"></div>
+	</div>
+  </body>
+</html>
